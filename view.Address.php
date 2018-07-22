@@ -5,15 +5,7 @@
 <body>
 <?php require 'class.Address.inc'; ?>
 
-<?php
-
-	$address = new Address;
-
-	echo '<pre>';
-	echo var_export($address);
-	echo '</pre>';
-
-?>
+<?php $address = new Address; ?>
 
 	<h2>Display Person Info</h2>
 
